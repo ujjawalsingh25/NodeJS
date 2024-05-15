@@ -1,0 +1,13 @@
+{
+  "name": "01__learning_require",
+  "version": "1.0.0",
+  "description": "Learning the function \"Require\"",
+  "main": "UsingRequire.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node UsingRequire.js",
+    "math": "node mathToImport.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
