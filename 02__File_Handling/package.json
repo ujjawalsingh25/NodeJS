@@ -1,0 +1,12 @@
+{
+  "name": "02__file_handling",
+  "version": "1.0.0",
+  "description": "Learning File Handling",
+  "main": "FileHandle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node FileHandle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
