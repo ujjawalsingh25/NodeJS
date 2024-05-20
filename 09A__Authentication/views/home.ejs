@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+</head>
+<body>
+    <h1>In Server</h1>
+
+    <% if (locals.id) { %>           <!-- Through EJS language support extension -->  
+    <p> URL Generated: http://loaclhost:3000/url/<%=id %> </p>
+    <% } %>
+        <!-- Ejs language HTML -->
+    <div>
+        <form method="POST" action="/url">
+            <label>Enter URL : </label>
+            <input
+               type= "text",
+               name= "url",                
+               placeholder= "https://example.com", 
+            />      
+            <!-- redirectURL is response of GET Method in 01_ServerSideRendering  -->
+            <button type="submit">Generate</button>
+
+            <% if (locals.urls) { %>
+                <table>
+                    <thead>
+                        <th>S. No</th>
+                        <th>ShortID</th>
+                        <th>Redirect</th>
+                        <th>Clicks</th>
+                    </thead>
+                    <tbody>
+                        <% urls.forEach((url, index) => { %>
+                            <tr>
+                                <td><%= index + 1 %></td>
+                                <td><%= url.shortId %></td>
+                                <td><%= url.redirectURL %></td>
+                                <td><%= url.visitHistory.length %></td>
+                            </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+            <% } %>
+        </form>
+    </div>
+</body>
+</html>
