@@ -1,0 +1,33 @@
+
+// _________________  Headers  _______________________________________
+// Headers are the extra information of every Request and every Response that tells that what Kind of Data, 
+// what is size of data, 
+
+
+// res.setHeader("X-myyHeader", "myyHeader Created");            // -->> ***** Header Created  ******* (Custom Header) 
+// --->>>       Always add "X-" to Custom Header
+// ______________________________________________________________________________________________________________
+// ______________________________________________________________________________________________________________
+
+
+
+
+// ___________  HTML Status Codes  __________________________________________________
+if(!user)   return res.status(404).json({error: "User not found"});
+
+// 01. Informational Response  -->> (100 - 199)
+
+// Successful Response  -->>   (200 - 299)
+//            // -->>   200 -> OK (server)
+//            // -->> 201  -> Created
+//           //  -->> 202  -> Accepted
+
+// Redirection Message  -->>    (300 - 399)
+
+// Client Error Responses  -->> (400 - 499)     // -->> Error from Client side(like wrong password, Site not found)
+//          //  -->>  400 -> Bad Request  (Payload have missing data)
+//          //  -->>  404  -> Error404 Not Found -> No such site that searched || User not found
+
+// Server Error Responses  -->> (500 - 599 )    // -->> Error from Server end (like typo error of variables, iteration error)
+// ______________________________________________________________________________________________________________
+// ______________________________________________________________________________________________________________

@@ -1,0 +1,16 @@
+
+REST API --> JSON
+
+GET /user --> HTML document renders
+GET /api/users --> Route will list all users    (if client is other than desktop like phone or alexa)
+
+// Dynamic Path Parameter  -->> GET /api/users/:id
+id --> Variable (Dynamic)
+GET /api/users/1  --> Route will Get the user with Id1
+GET /api/users/2 (id --> 2)  --> Route will Get the user with Id2
+
+POST /api/users  -->  Create new user
+
+PATCH /api/user/1  --> Edit the user with Id1
+
+DELETE /api/users/1  --> Delete the user with Id1
