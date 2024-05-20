@@ -1,0 +1,17 @@
+// npm init
+// npm i express
+// npm i mongoose
+
+// ________________  shortid ___________________
+    // -->> npm i shortid       (Package to create shortId)
+// ________________  nanoid  ___________________
+    // -->> npm i nanoid        (Package that takes length as parameter and generates a unique character)
+
+// _______  URL Shortener  ______________________________________________________________________________________________
+// Design a URL Shortener service that takes a valid URL and return a Shortened URL that redirects to the givem URL
+//          -->>  Keep track of the total visit/clicks on the URL
+// ---- Routes -------
+    // POST/URL                     --> Generate a new short URL and return that shorterned URL (like example.com/random-id)
+    // GET /:id                     --> Redirect the user to original URL 
+    // GET/URL/analytics/:id        --> Return the clicks/visits for the provided short id
+// __________________________________________________________________________________________________________________________
