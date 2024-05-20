@@ -1,0 +1,15 @@
+
+5/17/2024, 9:55:26 AM : ::1 : GET : /
+5/17/2024, 9:55:26 AM : ::1 : GET : /api/users
+5/17/2024, 9:55:26 AM : ::1 : GET : /favicon.ico
+5/17/2024, 9:55:26 AM : ::1 : POST : /api/users
+5/17/2024, 10:03:57 AM : ::1 : GET : /
+5/17/2024, 10:03:57 AM : ::1 : GET : /users
+5/17/2024, 10:03:57 AM : ::1 : GET : /favicon.ico
+5/17/2024, 10:03:57 AM : ::1 : GET : /api/users
+5/17/2024, 10:07:29 AM : ::1 : GET : /api/users
+5/17/2024, 10:07:29 AM : ::1 : GET : /api/users/6646dcb91d617dbdc5819c52
+5/17/2024, 10:10:04 AM : ::1 : GET : /api/users/6646dcb91d617dbdc5819c52
+5/17/2024, 10:10:04 AM : ::1 : GET : /api/users/
+5/17/2024, 10:10:04 AM : ::1 : GET : /api/users/6646dcb91d617dbdc5819c52/
+5/17/2024, 10:10:04 AM : ::1 : GET : /api/users/6646dcb91d617dbdc5819c52
