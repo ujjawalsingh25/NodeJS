@@ -1,0 +1,17 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "description": "Learning WebServers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node 01_BuildingServer.js",
+    "serverURL": "node 02_LeraningURL.js",
+    "serverHTML": "node 03_HtmlMethods.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.3"
+  }
+}
