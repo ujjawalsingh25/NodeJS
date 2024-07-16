@@ -1,0 +1,15 @@
+{
+  "name": "cluster_learning",
+  "version": "1.0.0",
+  "description": "Learning Cluster",
+  "main": "01_Cluster.js",
+  "scripts": {
+    "server": "node 01_Cluster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
