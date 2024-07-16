@@ -1,0 +1,15 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "Learning Streams",
+  "main": "01_Stream.js",
+  "scripts": {
+    "server": "node 01_Stream.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-status-monitor": "^1.3.4"
+  }
+}
